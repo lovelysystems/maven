@@ -10,7 +10,7 @@ Configuration
 =============
 
 To add this repository to your standard Maven project, add the following lines
-to your ``pom.xml`` or ``settings.xml`` file.
+to your ``pom.xml`` or ``settings.xml`` file::
 
  <repositories>
    <repository>
