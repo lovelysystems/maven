@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.lovelysystems.hive</groupId>
+  <artifactId>ls-hive</artifactId>
+  <versioning>
+    <versions>
+      <version>0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120125070431</lastUpdated>
+  </versioning>
+</metadata>
