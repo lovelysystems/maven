@@ -5,6 +5,8 @@ Lovely Systems Public Maven Repository
 This repository contains the following artifacts:
 
 :ls-hive: see: https://github.com/lovelysystems/ls-hive
+:elasticsearch-ls-plugins: see: https://github.com/lovelysystems/elasticsearch-ls-plugins
+
 
 Configuration
 =============
