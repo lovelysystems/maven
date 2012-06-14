@@ -25,3 +25,4 @@ to your ``pom.xml`` or ``settings.xml`` file::
   </repository>
  </repositories>
 
+
