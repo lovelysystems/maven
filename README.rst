@@ -27,3 +27,16 @@ to your ``pom.xml`` or ``settings.xml`` file::
  </repositories>
 
 
+Releases
+========
+
+To create a new release in this repository clone it to a folder next to your project.
+
+In your project:
+
+* setup a maven repos using `url = uri("../maven/releases")`
+  (see `example <https://github.com/lovelysystems/lovely-db-testing/blob/0.0.3/build.gradle.kts#L35-L47>`_)
+
+* run `gradlew publish`
+
+After that commit the files added by publishing the project
