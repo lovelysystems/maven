@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lovelysystems",
+    "module": "lovely-db-testing",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.testcontainers",
+          "module": "testcontainers",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lovely-db-testing-0.0.4.jar",
+          "url": "lovely-db-testing-0.0.4.jar",
+          "size": 21931,
+          "sha512": "7d65fcd55f89ec09a8973d095d3f65bc8553e4940e5dc53c4fc7ab648f7aa046d708f2920ae3f9d9df46dd52cb63b2cfc5e7439ee792036a0aa0002b118106fd",
+          "sha256": "c246ad8c54b1c83ca1de2214f3edc0ca5ead4b7f04a4028f3e78057f650a5d12",
+          "sha1": "205f732065dee30eef9d61e23e568cc34928c2cf",
+          "md5": "9ea0211000994cf7c0df389938b1d1a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.testcontainers",
+          "module": "testcontainers",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lovely-db-testing-0.0.4.jar",
+          "url": "lovely-db-testing-0.0.4.jar",
+          "size": 21931,
+          "sha512": "7d65fcd55f89ec09a8973d095d3f65bc8553e4940e5dc53c4fc7ab648f7aa046d708f2920ae3f9d9df46dd52cb63b2cfc5e7439ee792036a0aa0002b118106fd",
+          "sha256": "c246ad8c54b1c83ca1de2214f3edc0ca5ead4b7f04a4028f3e78057f650a5d12",
+          "sha1": "205f732065dee30eef9d61e23e568cc34928c2cf",
+          "md5": "9ea0211000994cf7c0df389938b1d1a7"
+        }
+      ]
+    }
+  ]
+}
